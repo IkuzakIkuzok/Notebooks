@@ -46,6 +46,10 @@
 \setlength{\evensidemargin}{-5.4truemm}
 \addtolength{\textwidth}{-40truemm}
 
+%% mathematical syntax sugar
+\def\rb#1{\left( #1 \right)}
+\def\wb#1{\left\{ #1 \right\}}
+
 %% mathbb
 \let\MathBB=\mathbb
 \def\mathbb#1{%
