@@ -30,6 +30,9 @@
 \usepackage{euler}
 \usepackage[dvipdfmx]{pict2e}
 \usepackage[dvipdfmx]{graphicx}
+\usepackage{tcolorbox}
+\usepackage{ulem}
+\usepackage{tikz}
 \usepackage{booktabs}
 
 %% margin
