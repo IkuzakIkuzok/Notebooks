@@ -1,0 +1,111 @@
+
+\documentclass{../../../notebook}
+
+\newcommand{\withcircle}[1]{{\ooalign{\hfill{\scriptsize #1}\/\hfill\crcr\raise.05ex\hbox{\mathhexbox20D}}}}
+
+\begin{document}
+
+\day{2018/04/09}
+
+\section{緒論}
+
+\subsection{高分子}
+
+$\mathrm{高分子}\begin{cases}\mathrm{何か}\\\mathrm{無かったら}\\\mathrm{いつからあるのか}\end{cases}$
+
+\paragraph{分子・化合物}
+
+\subparagraph{高分子の概念・定義}
+
+\textgt{Stauginger} 1920-1930 (約100年前)\\
+
+\par
+
+$\left(\begin{array}{l}
+  \mathrm{天然高分子} \cdots \mathrm{紀元前3000年前 綿布} \\
+  \mathrm{合成高分子} \cdots \mathrm{約100年前}
+\end{array}\right.$\\\\
+
+\par
+
+\begin{tcolorbox}[colframe=black!50,colback=white,colbacktitle=black!50,coltitle=white,title=高分子]
+\setlength{\baselineskip}{5pt}
+\textgt{共有結合}によって形成された\uwave{巨大な}分子\\
+\phantom{\textgt{共有結合}によって形成された}{\footnotesize 分子量が大きい}
+\end{tcolorbox}
+
+
+物性\\
+$\mathrm{代替材料}\begin{cases}\mathrm{金属}\\\mathrm{セラミックス}\end{cases}$\\\\
+
+\begin{tikzpicture}[x=1mm,y=1mm]
+%% left side
+\draw[line width=1pt](40,10) -- (40,24);
+\draw[line width=1pt](40,26) -- (40,40);
+\draw[line width=1pt,-latex] (20,18) -- (30,18);
+\draw[line width=1pt,-latex] (20,32) -- (30,32);
+\draw[line width=1pt,rounded corners=1pt,-latex] (35,25) -- (36,24.5) -- (37,25) -- (38,25.5) -- (39,25) -- (40,24.5) -- (41,25) -- (42,25.5) -- (43,25) -- (44,24.5) --%
+(45,25) -- (46,25.5) -- (47,25) -- (48,24.5) -- (49,25) -- (50,25);
+\draw (5,30) node {\textgt{気体}};
+\draw (50,20) node {\textgt{流出速度}};
+\draw (35,5) node {分子量\withcircle{大} $\to$ \withcircle{遅}};
+%% right side
+\draw[line width=1pt,rounded corners=3pt] (70,35) -- (70,20) -- (81,20) -- (81,35);
+\draw[line width=1pt] (70,30) -- (81,30);
+\draw (73,27) circle (0.5);
+\draw (73,24) circle (0.5);
+\draw (75,22) circle (0.5);
+\draw (77,27) circle (0.5);
+\draw (78,23) circle (0.5);
+\draw[line width=1pt,rounded corners=15pt] (77,27) -- (82,33) -- (90,32);
+\draw (103,32) node {デンプン・ゴム};
+\draw (103,20) node {\withcircle{遅} $\to$ コロイド?};
+\draw[line width=1pt,-stealth] (103,28) -- (103,23);
+\end{tikzpicture}
+
+\begin{tikzpicture}[x=1mm,y=1mm]
+\draw (30,24) node {低分子};
+\draw[line width=1pt,<->] (37,24) -- (53,24);
+\draw (60,24) node {高分子};
+\draw (45,27) node {コロイド};
+\draw (26,19) circle (0.5);
+\draw (24,5) circle (0.5);
+\draw (34,18) circle (0.5);
+\draw (33,4) circle (0.5);
+
+\draw (45,12) circle (0.5);
+\draw (46,12) circle (0.5);
+\draw (45.5,12.7) circle (0.5);
+\draw (44.5,12.7) circle (0.5);
+\draw (46.5,12.7) circle (0.5);
+\draw (45.5,11.3) circle (0.5);
+\draw (46.5,11.3) circle (0.5);
+\end{tikzpicture}
+
+\subsection{副原子価説}
+
+\subparagraph*{}
+\textgt{副原子価} ($\approx$配位結合，分子間相互作用) $\Longrightarrow$ 錯体
+\subparagraph*{}
+主原子価 (=共有結合)\\\\
+
+\par
+
+$\mathrm{分子量の決定法}\begin{cases}\mathrm{凝固点降下法}\\\mathrm{沸点上昇法}\end{cases} \Rightarrow \mathrm{低分子に有効}$\\\\
+
+\par
+
+Wieland: 分子量5000以上の有機物は存在しない。
+
+\setcounter{subsection}{3}
+\subsection{浸透圧と粘度測定}
+
+$\left.\begin{array}{l}
+\mathrm{浸透圧}\\\mathrm{粘度測定}
+\end{array}\right\}\Rightarrow \mathrm{高分子にも有効}$
+
+\subsection{論争のおわり}
+
+$\begin{cases}\mathrm{会合}\\\mathrm{共有結合}\end{cases}$
+
+\end{document}
